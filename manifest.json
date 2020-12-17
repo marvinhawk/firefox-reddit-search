@@ -1,0 +1,21 @@
+{
+	"name": "Sub Search",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "Search subreddits with a dedicated search engine.",
+	"permissions": ["tabs"],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"icons": {
+		"16": "images/search_icon16.png",
+		"32": "images/search_icon32.png",
+		"48": "images/search_icon48.png",
+		"128": "images/search_icon128.png"
+	},
+	"browser_action": {
+		"default_icon": "images/search_icon32.png",
+		"default_title": "Sub Search",
+		"default_popup": "popup.html"
+	}
+}
